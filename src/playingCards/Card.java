@@ -18,7 +18,14 @@ public class Card {
 		this.suit = suit;
 		this.rank = rank;
 	}
+	public int getRank(){
+		
+		return this.rank;
+	}
 
+	public int getSuit(){
+		return this.suit;
+	}
 	public String toString() {
 		return (RANKS[this.rank] + " of " + SUITS[this.suit]);
 	}
